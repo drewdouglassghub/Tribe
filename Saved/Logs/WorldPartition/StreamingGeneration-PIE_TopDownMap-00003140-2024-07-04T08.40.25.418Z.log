@@ -1,0 +1,60 @@
+[+] Containers:
+ |- [+] Container: /Game/Core/Maps/TopDownMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:30B43B8B4FF281FD1EE07D963FBDC2D8 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_D8BBC1565E987C0502_1667811600 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-110.000 Y=1500.000 Z=660.000), Max=(X=-110.000 Y=1500.000 Z=660.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:9C81C491415CDD1DCB4B60BDBBB248B1 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_D8BBC1565E987C0502_1668614601 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-120.000 Y=1280.000 Z=800.000), Max=(X=-120.000 Y=1280.000 Z=800.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E0E8D38248372BF8B773B9A5AAE068A0 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:30B43B8B4FF281FD1EE07D963FBDC2D8 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_D8BBC1565E987C0502_1667811600 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-110.000 Y=1500.000 Z=660.000), Max=(X=-110.000 Y=1500.000 Z=660.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:9C81C491415CDD1DCB4B60BDBBB248B1 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_D8BBC1565E987C0502_1668614601 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-120.000 Y=1280.000 Z=800.000), Max=(X=-120.000 Y=1280.000 Z=800.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:E0E8D38248372BF8B773B9A5AAE068A0 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/Core/Maps/TopDownMap
+----------------------------------------------------------------------------------------------------------------
+TopDownMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of TopDownMap Persistent Level
+ |- Always loaded Actor Count: 9 
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/Core/Maps/TopDownMap
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.Brush_0
+ |- Actor Package: /Game/Core/Maps/TopDownMap
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/Core/Maps/TopDownMap
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/Core/Maps/TopDownMap
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.SkyAtmosphere_UAID_D8BBC1565E987C0502_1668614601
+ |- Actor Package: /Game/__ExternalActors__/Core/Maps/TopDownMap/C/A8/GIMF16A063TVP3ZR1OAE67
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.SkyLight_UAID_D8BBC1565E987C0502_1667811600
+ |- Actor Package: /Game/__ExternalActors__/Core/Maps/TopDownMap/8/LX/1IX0TVJPG36KACD2S3UEZL
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.TopDownExampleMap_C_1
+ |- Actor Package: /Game/Core/Maps/TopDownMap
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/Core/Maps/TopDownMap/D/0D/JLACED8TEY8RZP1D4CKDAW
+ |- Actor Path: /Game/Core/Maps/TopDownMap.TopDownMap:PersistentLevel.WorldInfo_0
+ |- Actor Package: /Game/Core/Maps/TopDownMap
+
+----------------------------------------------------------------------------------------------------------------
+TopDownMap - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
